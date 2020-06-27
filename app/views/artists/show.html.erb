@@ -1,0 +1,11 @@
+<ul>Song Titles: 
+<%@artist.songs.each do |a|%>
+<li><%= link_to a.title, a%><br></li>
+<%#byebug%>
+<%end%>
+</ul>
+Song Count: <%= @artist.song_count%>
+ <%#=@artists.each {|a| a.song_count}%>
+<%#=@artist.songs.title%>
+<%#byebug%>
+
